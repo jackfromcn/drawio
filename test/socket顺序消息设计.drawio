@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T06:18:49.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="H94vJlfLdnfsxfmKYDxz" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T06:19:39.009Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="vYsI-ao-xWPiJX3NA7l4" version="14.8.3" type="github">
   <diagram id="7w6xEFenMqmiEfSMvMpZ" name="第 1 页">
     <mxGraphModel dx="1940" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -386,7 +386,7 @@
         <mxCell id="EohFfbry857YQSvMEl9U-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="EohFfbry857YQSvMEl9U-226" source="EohFfbry857YQSvMEl9U-182" target="EohFfbry857YQSvMEl9U-184" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EohFfbry857YQSvMEl9U-186" value="&lt;span&gt;符合推送要求的客户端进行批量推送&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="EohFfbry857YQSvMEl9U-226" vertex="1">
+        <mxCell id="EohFfbry857YQSvMEl9U-186" value="&lt;span&gt;【inner-queue】符合入队列的设备，发送check消息&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="EohFfbry857YQSvMEl9U-226" vertex="1">
           <mxGeometry x="5" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EohFfbry857YQSvMEl9U-187" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="EohFfbry857YQSvMEl9U-226" source="EohFfbry857YQSvMEl9U-184" target="EohFfbry857YQSvMEl9U-186" edge="1">
