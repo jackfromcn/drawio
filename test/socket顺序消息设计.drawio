@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T06:37:16.204Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="pyQtuRHseqV4H5xKjX-3" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T06:37:30.613Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="pP62Rixml0t1mDMqjBiF" version="14.8.3" type="github">
   <diagram id="7w6xEFenMqmiEfSMvMpZ" name="第 1 页">
     <mxGraphModel dx="1940" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -220,7 +220,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EohFfbry857YQSvMEl9U-80" value="内部业务处理消息队列：socket-center-message-inner-queue" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="450" y="255" width="1660" height="710" as="geometry">
+          <mxGeometry x="560" y="255" width="1660" height="710" as="geometry">
             <mxRectangle x="430" y="255" width="370" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
