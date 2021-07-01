@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T06:14:24.715Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="JhFFp9aPZGHrq8AEWY5T" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-01T06:17:12.944Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="BKYHiN3ljVNXSFzqK_wN" version="14.8.3" type="github">
   <diagram id="7w6xEFenMqmiEfSMvMpZ" name="第 1 页">
-    <mxGraphModel dx="1940" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1940" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -374,13 +374,13 @@
         <mxCell id="EohFfbry857YQSvMEl9U-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="EohFfbry857YQSvMEl9U-226" source="EohFfbry857YQSvMEl9U-171" target="EohFfbry857YQSvMEl9U-179" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EohFfbry857YQSvMEl9U-182" value="不符合立即推送，但消息能正常入业务队列的集合，不做任何操作" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="EohFfbry857YQSvMEl9U-226" vertex="1">
+        <mxCell id="EohFfbry857YQSvMEl9U-182" value="【insert】符合入队列要求的设备，消息落库" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="EohFfbry857YQSvMEl9U-226" vertex="1">
           <mxGeometry x="5" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EohFfbry857YQSvMEl9U-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="EohFfbry857YQSvMEl9U-226" source="EohFfbry857YQSvMEl9U-179" target="EohFfbry857YQSvMEl9U-182" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EohFfbry857YQSvMEl9U-184" value="&lt;span&gt;1. 不符合立即推送，2. 消息benign能正常入业务队列的集合。&lt;br&gt;对业务方进行异常通知&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="EohFfbry857YQSvMEl9U-226" vertex="1">
+        <mxCell id="EohFfbry857YQSvMEl9U-184" value="&lt;span&gt;1. 不符合立即推送，2. 消息能正常入业务队列的集合。&lt;br&gt;对业务方进行异常通知&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" parent="EohFfbry857YQSvMEl9U-226" vertex="1">
           <mxGeometry y="370" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EohFfbry857YQSvMEl9U-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="EohFfbry857YQSvMEl9U-226" source="EohFfbry857YQSvMEl9U-182" target="EohFfbry857YQSvMEl9U-184" edge="1">
