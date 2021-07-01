@@ -1,1 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T07:27:15.345Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.3" etag="B_pDR4SxB2Hf4hYxFPOF" type="github"><diagram id="l7ZyFlMGy-nhsHDSkZHP">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-01T07:31:11.444Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="mjLSpm1-C8_s2QxU29vm" version="14.8.3" type="github">
+  <diagram id="l7ZyFlMGy-nhsHDSkZHP" name="第 1 页">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TwO4BmEhgUDkhbu8ILlg-1" value="POS" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="190" y="130" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TwO4BmEhgUDkhbu8ILlg-2" value="ClientA" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="590" y="40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TwO4BmEhgUDkhbu8ILlg-3" value="ClientB" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TwO4BmEhgUDkhbu8ILlg-4" value="" style="curved=1;endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TwO4BmEhgUDkhbu8ILlg-2" target="TwO4BmEhgUDkhbu8ILlg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwO4BmEhgUDkhbu8ILlg-5" value="1. 登陆" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TwO4BmEhgUDkhbu8ILlg-4">
+          <mxGeometry x="-0.1068" y="30" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwO4BmEhgUDkhbu8ILlg-6" value="" style="curved=1;endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TwO4BmEhgUDkhbu8ILlg-1" target="TwO4BmEhgUDkhbu8ILlg-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="160" as="sourcePoint" />
+            <mxPoint x="300" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwO4BmEhgUDkhbu8ILlg-8" value="2. 推送未消费的消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TwO4BmEhgUDkhbu8ILlg-6">
+          <mxGeometry x="-0.0897" y="-12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwO4BmEhgUDkhbu8ILlg-9" value="" style="curved=1;endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TwO4BmEhgUDkhbu8ILlg-2" target="TwO4BmEhgUDkhbu8ILlg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="90" as="sourcePoint" />
+            <mxPoint x="280" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwO4BmEhgUDkhbu8ILlg-11" value="3. ack" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TwO4BmEhgUDkhbu8ILlg-9">
+          <mxGeometry x="-0.019" y="-21" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwO4BmEhgUDkhbu8ILlg-12" value="" style="curved=1;endArrow=classic;html=1;entryX=0.29;entryY=0.933;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TwO4BmEhgUDkhbu8ILlg-1" target="TwO4BmEhgUDkhbu8ILlg-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="320" as="sourcePoint" />
+            <mxPoint x="300" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TwO4BmEhgUDkhbu8ILlg-14" value="4. 推送未消费的消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TwO4BmEhgUDkhbu8ILlg-12">
+          <mxGeometry x="-0.1067" y="15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
