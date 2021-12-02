@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-01T10:06:08.298Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="w5vLX-tK6pn-C0Ce6na9" version="15.7.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-02T09:57:08.426Z" agent="5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36" etag="M8nS--8r5INcZqSCUMoB" version="15.7.0" type="github" pages="3">
   <diagram id="CHwzUmkxaitqvtWPKl4Z" name="第 1 页">
     <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,6 +90,38 @@
         </mxCell>
         <mxCell id="6gqjXQ_BsJTxTuVqId8v-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;direction=west;" vertex="1" parent="tYX4LYO8nZVOiCuhqoAW-1">
           <mxGeometry x="500" y="430" width="40" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="L_cAmKKat6nTEHs5fu1s" name="第 3 页">
+    <mxGraphModel dx="946" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="W3Upz3TgslrYSIfKeswb-0" />
+        <mxCell id="W3Upz3TgslrYSIfKeswb-1" parent="W3Upz3TgslrYSIfKeswb-0" />
+        <mxCell id="W3Upz3TgslrYSIfKeswb-43" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="W3Upz3TgslrYSIfKeswb-1">
+          <mxGeometry x="100" y="60" width="20" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="W3Upz3TgslrYSIfKeswb-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="W3Upz3TgslrYSIfKeswb-43">
+          <mxGeometry x="5" y="97.5" width="10" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="W3Upz3TgslrYSIfKeswb-44" value="socket-center" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="W3Upz3TgslrYSIfKeswb-1">
+          <mxGeometry x="220" y="60" width="100" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="W3Upz3TgslrYSIfKeswb-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="W3Upz3TgslrYSIfKeswb-44">
+          <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W3Upz3TgslrYSIfKeswb-45" value="socket-center-message" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="W3Upz3TgslrYSIfKeswb-1">
+          <mxGeometry x="400" y="60" width="100" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="W3Upz3TgslrYSIfKeswb-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="W3Upz3TgslrYSIfKeswb-45">
+          <mxGeometry x="45" y="70" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="W3Upz3TgslrYSIfKeswb-51" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="W3Upz3TgslrYSIfKeswb-1" target="W3Upz3TgslrYSIfKeswb-44">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="450" y="160" as="sourcePoint" />
+            <mxPoint x="420" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
